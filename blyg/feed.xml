@@ -4,9 +4,31 @@
     <title>Ben Mayhew's blyg</title>
     <link>https://benmayhew.com/blyg/</link>
     <description>Short writing on protocols, memory, mathematics, teaching and systems for thinking with. Saint Paul.</description>
-    <lastBuildDate>Sun, 11 Oct 2026 13:45:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 15:28:48 GMT</lastBuildDate>
     <blyg:level>2</blyg:level>
     <blyg:manifest>https://benmayhew.com/blyg/blyg.json</blyg:manifest>
+    <item>
+      <guid isPermaLink="false">blyg:0ez730nf8g98mtdbzjgmdxfqwm:v1</guid>
+      <link>https://benmayhew.com/blyg/t/0ez730nf8g98mtdbzjgmdxfqwm/</link>
+      <title>first post — All feeds have the same limitation: they incorrectly assume past behavior is indicative…</title>
+      <description><![CDATA[<blockquote class="blyg-transclusion blyg-partial" data-blyg-id="2wxaj0m3wfdd5qrvv8vxyx7e39" data-blyg-version="3" data-blyg-origin="https://blyg.suryakasturi.com/">
+<p>All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.</p>
+</blockquote>
 
+
+<p>I maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query <em>is</em> a declared present intent. The algorithm selects seeds from the locally maintained &quot;atlas&quot; by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over <em>what changed</em> since the last time you looked.</p>
+<blockquote class="blyg-transclusion blyg-partial" data-blyg-id="5ynf32h7krybrefa9t1vdca3pn" data-blyg-version="1" data-blyg-origin="https://venkateshrao.com/blyg/">
+<p>Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.</p>
+</blockquote>
+
+
+<p>As far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are <em>intentional</em> and kept as human processes; it&#39;s only the ranking that the machine infers.</p>]]></description>
+      <pubDate>Sun, 11 Oct 2026 15:28:48 GMT</pubDate>
+      <blyg:id>0ez730nf8g98mtdbzjgmdxfqwm</blyg:id>
+      <blyg:kind>thread</blyg:kind>
+      <blyg:version>1</blyg:version>
+      <blyg:created>2026-10-11T15:28:48Z</blyg:created>
+      <blyg:item>https://benmayhew.com/blyg/items/0ez730nf8g98mtdbzjgmdxfqwm.json</blyg:item>
+    </item>
   </channel>
 </rss>

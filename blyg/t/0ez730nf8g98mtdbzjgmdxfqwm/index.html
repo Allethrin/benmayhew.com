@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All feeds have the same limitation: they incorrectly assume past… — Ben Mayhew's blyg</title>
+<link rel="blyg" href="../../">
+<link rel="alternate" type="application/rss+xml" title="Ben Mayhew's blyg" href="../../feed.xml">
+<link rel="canonical" href="https://benmayhew.com/blyg/t/0ez730nf8g98mtdbzjgmdxfqwm/">
+<link rel="alternate" type="application/json" href="../../items/0ez730nf8g98mtdbzjgmdxfqwm.json">
+<style>:root{color-scheme:light dark;--fg:#1a1a1a;--bg:#fbfaf7;--muted:#6b6b6b;--link:#2f5d8a;--rule:#ddd8cf;--quote:#f1ede4}
+@media(prefers-color-scheme:dark){:root{--fg:#e8e6e1;--bg:#141414;--muted:#9a9a9a;--link:#8ab4e8;--rule:#2a2a2a;--quote:#1e1e1e}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 Georgia,'Times New Roman',serif}
+main{max-width:38rem;margin:0 auto;padding:3rem 1rem 4rem}
+a{color:var(--link)}header.site{margin-bottom:2rem}header.site h1{font-weight:normal;font-size:1.3rem;margin:0}
+header.site p{margin:.25rem 0 0;color:var(--muted);font-size:.95rem}
+article{padding:1.5rem 0;border-top:1px solid var(--rule)}article:first-of-type{border-top:0}
+article p{margin:0 0 1rem}blockquote{margin:0 0 1rem;padding:.6rem 1rem;background:var(--quote);border-left:3px solid var(--rule)}
+blockquote.blyg-transclusion blockquote.blyg-transclusion{margin-top:.6rem;border-left-color:var(--muted)}
+.meta{font-size:.9rem;color:var(--muted);margin-top:.5rem}.meta a{color:var(--muted)}
+code{font-size:.92em}pre{overflow:auto;padding:.75rem;background:var(--quote)}</style>
+</head>
+<body><main><header class="site"><h1><a href="../../">Ben Mayhew's blyg</a></h1><p>Short writing on protocols, memory, mathematics, teaching and systems for thinking with. Saint Paul. · <a href="../../feed.xml">feed</a> · <a href="../../blyg.json">manifest</a> · <a href="https://benmayhew.com/">home</a></p></header><article id="0ez730nf8g98mtdbzjgmdxfqwm"><blockquote class="blyg-transclusion blyg-partial" data-blyg-id="2wxaj0m3wfdd5qrvv8vxyx7e39" data-blyg-version="3" data-blyg-origin="https://blyg.suryakasturi.com/">
+<p>All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.</p>
+</blockquote>
+
+
+<p>I maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query <em>is</em> a declared present intent. The algorithm selects seeds from the locally maintained &quot;atlas&quot; by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over <em>what changed</em> since the last time you looked.</p>
+<blockquote class="blyg-transclusion blyg-partial" data-blyg-id="5ynf32h7krybrefa9t1vdca3pn" data-blyg-version="1" data-blyg-origin="https://venkateshrao.com/blyg/">
+<p>Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.</p>
+</blockquote>
+
+
+<p>As far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are <em>intentional</em> and kept as human processes; it&#39;s only the ranking that the machine infers.</p><div class="meta">quoting <a href="https://blyg.suryakasturi.com/f/2wxaj0m3wfdd5qrvv8vxyx7e39/">Surya Kasturi</a> v3 (excerpt) · <a href="https://venkateshrao.com/blyg/t/5ynf32h7krybrefa9t1vdca3pn/">Venkatesh Rao</a> v1 (excerpt)</div><div class="meta">in response to <a href="https://venkateshrao.com/blyg/t/5ynf32h7krybrefa9t1vdca3pn/">Venkatesh Rao</a></div><div class="meta"><a href="#">2026-10-11</a> · v1 · <a href="../../items/0ez730nf8g98mtdbzjgmdxfqwm.json">json</a></div></article></main></body>
+</html>
