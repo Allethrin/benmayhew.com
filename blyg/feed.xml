@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:blyg="https://blygger.org/ns/0.1">
+  <channel>
+    <title>Ben Mayhew's blyg</title>
+    <link>https://benmayhew.com/blyg/</link>
+    <description>Short writing on protocols, memory, mathematics, teaching and systems for thinking with. Saint Paul.</description>
+    <lastBuildDate>Sun, 11 Oct 2026 13:45:52 GMT</lastBuildDate>
+    <blyg:level>2</blyg:level>
+    <blyg:manifest>https://benmayhew.com/blyg/blyg.json</blyg:manifest>
+
+  </channel>
+</rss>

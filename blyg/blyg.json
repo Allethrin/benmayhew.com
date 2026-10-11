@@ -1,0 +1,25 @@
+{
+  "blyg": "0.3",
+  "level": 2,
+  "generator": "benmayhew-blyg/0.1.0",
+  "generator_url": "https://github.com/Allethrin/benmayhew.com",
+  "site": "https://benmayhew.com/blyg/",
+  "title": "Ben Mayhew's blyg",
+  "author": {
+    "name": "Ben Mayhew",
+    "bio": "Mathematics, statistics, teaching, plants, and systems for thinking with. Saint Paul.",
+    "links": [
+      {
+        "label": "Home",
+        "url": "https://benmayhew.com/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Allethrin"
+      }
+    ]
+  },
+  "feed": "feed.xml",
+  "items": "items/index.json",
+  "updated": "2026-10-11T13:45:52Z"
+}
