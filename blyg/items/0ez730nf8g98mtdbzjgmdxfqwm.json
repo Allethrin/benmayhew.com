@@ -9,11 +9,11 @@
     "url": "https://benmayhew.com/"
   },
   "created": "2026-10-11T15:28:48Z",
-  "updated": "2026-10-11T15:28:48Z",
-  "version": 1,
-  "content_md": "![[2wxaj0m3wfdd5qrvv8vxyx7e39]]\n> All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.\n\nI maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query *is* a declared present intent. The algorithm selects seeds from the locally maintained \"atlas\" by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over *what changed* since the last time you looked.\n\n![[5ynf32h7krybrefa9t1vdca3pn]]\n> Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.\n\nAs far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are *intentional* and kept as human processes; it's only the ranking that the machine infers.\n",
-  "content_html": "<blockquote class=\"blyg-transclusion blyg-partial\" data-blyg-id=\"2wxaj0m3wfdd5qrvv8vxyx7e39\" data-blyg-version=\"3\" data-blyg-origin=\"https://blyg.suryakasturi.com/\">\n<p>All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.</p>\n</blockquote>\n\n\n<p>I maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query <em>is</em> a declared present intent. The algorithm selects seeds from the locally maintained &quot;atlas&quot; by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over <em>what changed</em> since the last time you looked.</p>\n<blockquote class=\"blyg-transclusion blyg-partial\" data-blyg-id=\"5ynf32h7krybrefa9t1vdca3pn\" data-blyg-version=\"1\" data-blyg-origin=\"https://venkateshrao.com/blyg/\">\n<p>Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.</p>\n</blockquote>\n\n\n<p>As far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are <em>intentional</em> and kept as human processes; it&#39;s only the ranking that the machine infers.</p>",
-  "content_hash": "sha256:9f1a6832690cd597726e00a537de2d0017ce637f9ed9829562a6d121c175b1b4",
+  "updated": "2026-10-12T01:15:02Z",
+  "version": 2,
+  "content_md": "# On intent in feeds\n\n![[2wxaj0m3wfdd5qrvv8vxyx7e39]]\n> All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.\n\nI maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query *is* a declared present intent. The algorithm selects seeds from the locally maintained \"atlas\" by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over *what changed* since the last time you looked.\n\n![[5ynf32h7krybrefa9t1vdca3pn]]\n> Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.\n\nAs far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are *intentional* and kept as human processes; it's only the ranking that the machine infers.\n",
+  "content_html": "<h1>On intent in feeds</h1>\n<blockquote class=\"blyg-transclusion blyg-partial\" data-blyg-id=\"2wxaj0m3wfdd5qrvv8vxyx7e39\" data-blyg-version=\"3\" data-blyg-origin=\"https://blyg.suryakasturi.com/\">\n<p>All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more indicative but they have no clean way for the user to say what they want right now.</p>\n</blockquote>\n\n\n<p>I maintain a reader-side map of the blyg network: a local crawler over the manifests, feeds and stub chains, with search and an activity view on top. The query <em>is</em> a declared present intent. The algorithm selects seeds from the locally maintained &quot;atlas&quot; by comparing cosine similarity of embeddings, then hops from seeds through the local map with weight decay based on hop count/edge type (and optionally recency), returns a pool of results, then locally reranks it to answer the query. To turn the query into a feed, all that has to be done is make the queries persistent and run them over <em>what changed</em> since the last time you looked.</p>\n<blockquote class=\"blyg-transclusion blyg-partial\" data-blyg-id=\"5ynf32h7krybrefa9t1vdca3pn\" data-blyg-version=\"1\" data-blyg-origin=\"https://venkateshrao.com/blyg/\">\n<p>Hoppers are also a signal, since creating and naming one states intent. But only collection activity reveals whether you mean it.</p>\n</blockquote>\n\n\n<p>As far as I understand, you could have hoppers with queries attached and sort hand-selected content from standing query results into the hopper. This can then help you refine the query/intent, e.g. you can use the hopper items as new seeds for future searches under that query. Both the query declaration and hand-selection are <em>intentional</em> and kept as human processes; it&#39;s only the ranking that the machine infers.</p>",
+  "content_hash": "sha256:cf88dcd51348e1563c1fc9231dc6266631a9407e807c97d3a8e00a467451d1f8",
   "media": [],
   "transclusions": [
     {
@@ -28,7 +28,7 @@
         "author": "Surya Kasturi",
         "excerpt": "All feeds have the same limitation: they incorrectly assume past behavior is indicative of future intent. They drift toward what users have done than what they are after. Present intent is much more…",
         "url": "https://blyg.suryakasturi.com/f/2wxaj0m3wfdd5qrvv8vxyx7e39/",
-        "retrieved": "2026-10-11T15:28:48Z"
+        "retrieved": "2026-10-12T01:15:02Z"
       }
     },
     {
@@ -43,7 +43,7 @@
         "author": "Venkatesh Rao",
         "excerpt": "The smart feed scaffolding in studio will expose available local data to infer with as you like, but ultimately truly new intents can’t be easily guessed. They have to be declared. The basic plan…",
         "url": "https://venkateshrao.com/blyg/t/5ynf32h7krybrefa9t1vdca3pn/",
-        "retrieved": "2026-10-11T15:28:48Z"
+        "retrieved": "2026-10-12T01:15:02Z"
       }
     }
   ],
@@ -55,7 +55,7 @@
       "source": "Venkatesh Rao",
       "excerpt": "The smart feed scaffolding in studio will expose available local data to infer with as you like, but ultimately truly new intents can’t be easily guessed. They have to be declared. The basic plan…",
       "url": "https://venkateshrao.com/blyg/t/5ynf32h7krybrefa9t1vdca3pn/",
-      "retrieved": "2026-10-11T15:28:48Z"
+      "retrieved": "2026-10-12T01:15:02Z"
     }
   },
   "changelog": [
@@ -63,6 +63,11 @@
       "version": 1,
       "at": "2026-10-11T15:28:48Z",
       "note": "first post"
+    },
+    {
+      "version": 2,
+      "at": "2026-10-12T01:15:02Z",
+      "note": "add title"
     }
   ]
 }
